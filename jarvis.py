@@ -1,7 +1,6 @@
 from modules.voice import speak, listen
 from modules.assistant import process_command
 from config import ASSISTANT_NAME, WAKE_WORDS, EXIT_WORDS
-from utils.helpers import get_greeting
 
 def is_wake_word(command):
     return any(word in command for word in WAKE_WORDS)
@@ -28,7 +27,7 @@ def main():
             command = listen()
 
             if is_exit(command):
-                speak("Goodbye!")
+                speak("Goodbye!") 
                 break
 
             response = process_command(command)
