@@ -1,14 +1,17 @@
 import datetime
 
 def get_time():
-    return datetime.datetime.now().strftime("%I:%M %p")
+    time_now = datetime.datetime.now()
+    return time_now.strftime("%I:%M %p")
+
 
 def get_greeting():
-    hour = datetime.datetime.now().hour
+    time_now = datetime.datetime.now()
+    h = time_now.hour
 
-    if hour < 12:
+    if h < 12:
         return "Good morning"
-    elif hour < 18:
+    elif h < 18:
         return "Good afternoon"
     else:
         return "Good evening"
