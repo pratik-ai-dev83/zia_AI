@@ -18,15 +18,17 @@ Fixro is an AI-powered bug fixing tool that helps developers detect, understand,
 * OpenAI API (AI Suggestions)
 * JavaScript (Future Frontend)
 * HTML/CSS (UI - Planned)
-
+  
 ## Project Structure
 
+```
 Fixro/
 │── main.py          # Entry point
 │── analyzer.py      # Code analysis logic
 │── fixer.py         # Suggest fixes
 │── utils/           # Helper functions
 │── README.md        # Project documentation
+```
 
 ## How It Works
 
@@ -35,3 +37,25 @@ Fixro/
 3. Detects possible bugs
 4. Suggests fixes using AI
 5. Returns improved code
+
+---
+
+## Getting Started
+
+### 1. Clone Repository
+
+```
+git clone https://github.com/pratik-ai-dev83/fixro.git
+```
+
+### 2. Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+### 3. Run Project
+
+```
+python main.py
+```
