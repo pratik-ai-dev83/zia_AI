@@ -10,3 +10,10 @@ def speak(text):
   print("jarvis:", text)
   engine.say(text)
   engine.runAndWait()
+
+def take_command():
+  r = sr.Recognizer()
+
+with sr.Microphone() as source:
+  print("Listening...")
+  r.pause
