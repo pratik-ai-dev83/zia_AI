@@ -4,7 +4,7 @@ import datetime
 import webbrowser
 import os
 
-engine = pyttsx3.int()
+engine = pyttsx3.init()
 
 def speak(text):
   print("jarvis:", text)
@@ -20,17 +20,17 @@ with sr.Microphone() as source:
   audio = r.listen(source)
   try:
     print("Recognizing..")
-    commabd = r.recognizing_google(audio, languag='en-in')
+    command = r.recognize_google(audio, language='en-in')
     print("You said:", command)
   except Exception:
     speak("Sorry, I didn't understand.")
     return "none"
 
-  return commnd.lower()
+  return command.lower()
 
 
 def wish_user():
-  hoyr = datetime.datetime.now().hour
+  hour = datetime.datetime.now().hour
 
   if hour < 12:
     speak("Good morning")
@@ -41,7 +41,7 @@ def wish_user():
 
 
 def run_jarvis():
-  while true:
+  while True:
     command = take_command()
 
     if "time" in command:
@@ -62,7 +62,7 @@ def run_jarvis():
        song_name = take_command().lower()
 
       if song_name:
-        url = f"fttps://open.spotify.com/search/{song_name}"
+        url = f"https://open.spotify.com/search/{song_name}"
         webbroser.open(url)
         speak(f"Playing {song_name} on Spotify")
     else:
@@ -74,10 +74,10 @@ elif "exit" in command or "stop" in command:
 
 elif command != "none":
   speak("I can serch tht for you")
-  webbrower.open(f"https//www.google.com/search?q={command}")
+  webbrowser.open(f"https//www.google.com/search?q={command}")
 
 
-if ___name__ == "__main__":
+if __name_ == "__main__":
   run_jarvis()
       
       
