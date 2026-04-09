@@ -77,7 +77,7 @@ elif command != "none":
   webbrowser.open(f"https://www.google.com/search?q={command}")
 
 
-if _name_ == "__main__":
+if __name__ == "__main__":
   run_jarvis()
       
       
