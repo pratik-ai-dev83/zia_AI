@@ -53,5 +53,13 @@ elif "time" in command:
 elif "youtube" in command:
     webbrowser.open("https://www.youtube.com")
     return "Opening Youtube..."
-    
 
+elif "google" in command:
+    webbrowser.open("https://www.google.com")
+    return "Opening Google..."
+
+elif "search" in command:
+    query = cpmmand.replace("search", "").strip()
+
+    if query:
+        encoded = urllib.parse.quote(query)
