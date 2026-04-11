@@ -38,3 +38,6 @@ def analyze_code(user_code, error_message=None):
     
     except Exception as e:
         return f"Somting is wrong: {str(e)}"
+    
+    print("error message")
+    
