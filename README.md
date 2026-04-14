@@ -67,3 +67,38 @@ zia_AI/
 - ☁️ Cloud Sync  
 - 🤖 OpenAI Integration  
 - 🏠 Smart Home Automation  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository  
+2. Create a new branch  
+3. Make changes  
+4. Submit a Pull Request  
+
+---
+
+## 📜 License
+
+This project is open-source under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Pratik Patil**  
+AI Developer 🚀  
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+⭐ Star the repo  
+🔁 Share it  
+💡 Contribute  
+
