@@ -50,17 +50,17 @@ zia_AI/
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
-1. 🎤 Takes voice input  
-2. 🔄 Converts speech → text  
-3. 🧠 Processes command  
-4. ⚡ Executes action  
-5. 🔊 Responds with voice  
+1. Takes voice input  
+2. Converts speech → text  
+3. Processes command  
+4. Executes action  
+5. Responds with voice  
 
 ---
 
-## 🌟 Future Improvements
+## Future Improvements
 
 - Advanced GUI (Jarvis-style UI)  
 - Mobile App Version  
