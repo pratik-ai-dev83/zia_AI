@@ -17,3 +17,13 @@ ZIA is a powerful AI-based voice assistant inspired by Jarvis and Alexa. It is d
 ---
 
 ## Project Structure
+
+zia_AI/
+│── commands.py # Command handling logic
+│── utils.py # Helper functions
+│── zia_ai.py # Core assistant logic
+│── zia_ai_voice.py # Voice interaction system
+│── face_lock.py # Face recognition system
+│── config.json # Settings & configuration
+│── memory.json # Stores user data
+│── README.md
