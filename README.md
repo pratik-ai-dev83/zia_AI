@@ -62,15 +62,15 @@ zia_AI/
 
 ## 🌟 Future Improvements
 
-- 🎨 Advanced GUI (Jarvis-style UI)  
-- 📱 Mobile App Version  
-- ☁️ Cloud Sync  
-- 🤖 OpenAI Integration  
-- 🏠 Smart Home Automation  
+- Advanced GUI (Jarvis-style UI)  
+- Mobile App Version  
+- Cloud Sync  
+- OpenAI Integration  
+- Smart Home Automation  
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!
 
@@ -81,20 +81,20 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source under the MIT License.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Pratik Patil**  
 AI Developer 🚀  
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project:
 
